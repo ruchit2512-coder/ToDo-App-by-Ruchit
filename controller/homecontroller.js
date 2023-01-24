@@ -7,7 +7,7 @@ module.exports.home = function(req,res){
             return
         }
         
-        return res.render('homePage',{
+        return res.render('index',{
             title:"Home",
             todoList:todo
            
